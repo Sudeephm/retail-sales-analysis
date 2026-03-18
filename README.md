@@ -1,48 +1,72 @@
-# Retail Sales Analysis
 
-## 📊 Project Overview
-This project analyzes a large-scale e-commerce dataset containing over **67 million records** of customer interactions, including product views, cart additions, and purchases.
+# 📊 Customer Segmentation using RFM Analysis
 
-The objective is to understand customer behavior, identify trends, and provide insights to improve business decision-making.
+## 📌 Project Overview
 
----
+This project analyzes a large-scale retail dataset to understand customer purchasing behavior and segment customers based on RFM (Recency, Frequency, Monetary) analysis.
 
-## 🛠 Tools & Technologies
-- Python
-- Pandas
-- Jupyter Notebook
+The goal is to identify:
 
----
-
-## 🔍 Key Analysis Performed
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Event type analysis (views, cart, purchase)
-- Product and category insights
-- Pricing pattern analysis
+* High-value customers
+* Loyal customers
+* At-risk customers
 
 ---
 
-## 📈 Key Insights
-- High number of product views compared to purchases (low conversion rate)
-- Certain product categories dominate user interest
-- Pricing plays a significant role in purchase decisions
+## 📂 Dataset
+
+* Online Retail Dataset (~500K records)
+* Features: InvoiceNo, CustomerID, Quantity, UnitPrice, InvoiceDate
 
 ---
 
-## 🚀 Business Impact
-The insights from this analysis can help:
-- Improve conversion rates
-- Optimize product pricing
-- Enhance customer targeting strategies
+## ⚙️ Tools & Technologies
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
 ---
 
-## 📁 Project Files
-- `sales_analysis.ipynb` → Full analysis notebook
+## 🔍 Key Steps Performed
+
+* Data Cleaning (handled missing CustomerID, removed negative values)
+* Feature Engineering (created TotalAmount column)
+* RFM Analysis (Recency, Frequency, Monetary)
+* Customer Segmentation
+* Data Visualization
 
 ---
 
-## 👨‍💻 Author
-Sudeep H M  
-Data Analytics Student | Python | SQL | Power BI
+## 📊 Key Insights
+
+* Majority of customers are regular buyers
+* Identified high-value (Best) customers
+* Detected customers at risk of churn
+* Provided actionable business strategies
+
+---
+
+## 📈 Visualizations
+
+* Customer segmentation distribution
+* Spending analysis by segment
+* Customer behavior patterns
+
+---
+
+## 💼 Business Impact
+
+* Helps companies target customers effectively
+* Improves customer retention strategies
+* Increases revenue through segmentation
+
+---
+
+## 🚀 Future Improvements
+
+* Machine Learning model for churn prediction
+* Dashboard using Power BI or Tableau
+
